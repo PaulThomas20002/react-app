@@ -4,6 +4,42 @@
   padding: 2rem;
   text-align: center;
 }
+h1{
+  margin: 6rem;
+  color: snow;
+  font-family: poppins;
+
+}
+
+h1:hover {
+  color:  steelblue;
+  cursor: pointer;
+  border-color: white;
+}
+h1:focus,
+h1:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+p{
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+}
+
+.box {
+  border: 5px solid white;
+  padding: 20px;
+}
+.box:hover {
+  border: 5px solid ;
+  padding: 20px;
+  background-color: steelblue;
+  box-shadow: 2px 2px 5px gray;
+}
+
+h3{
+  color: white;
+}
 
 .logo {
   height: 6em;
