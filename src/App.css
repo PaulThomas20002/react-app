@@ -3,16 +3,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 h1{
   margin: 6rem;
-  color: snow;
+  color: steelblue;
   font-family: poppins;
 
 }
 
 h1:hover {
-  color:  steelblue;
+  color:  white;
   cursor: pointer;
   border-color: white;
 }
@@ -24,23 +25,26 @@ h1:focus-visible {
 p{
   font-family: 'Allura', cursive;
   font-size: 3rem;
+  color: steelblue;
 }
 
 .box {
-  border: 5px solid white;
+  border: 2px solid lightblue;
   padding: 20px;
+  box-shadow: 2px 2px 5px rgb(6, 40, 68);
 }
+/*
 .box:hover {
   border: 5px solid ;
   padding: 20px;
   background-color: steelblue;
-  box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 5px slategrey;
 }
 
 h3{
   color: white;
 }
-
+*/
 .logo {
   height: 6em;
   padding: 1.5em;

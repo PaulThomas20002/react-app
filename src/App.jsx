@@ -9,7 +9,7 @@ function App() {
       <div className='box'>
         <p>Hey I am</p>
         <h1>Paul Thomas</h1>
-        <a href="mailto:paulthomas.site@gmail.com"><h3>&#x2709; E-Mail</h3></a>
+        <a href="mailto:paulthomas.site@gmail.com"> &#x2709; E-Mail</a>
         <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
          Clicks {count}
